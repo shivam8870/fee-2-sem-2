@@ -1,0 +1,25 @@
+/* Universal selector */
+/* * {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: blue;
+}
+.hlo{
+    background-color: aquamarine;
+    font-weight: 80;
+    text-align: center;
+}
+.ok{
+    background-color: rgb(151, 159, 188);
+    font-weight: 80;
+    text-align: center;
+}
+h1{
+    color: brown;
+}
+input[type="text"]{
+    background-color: rgb(151, 159, 188);
+}
+input[type="password"]{
+    background-color: rgb(248, 37, 185);
+} */

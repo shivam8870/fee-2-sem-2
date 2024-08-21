@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Example</title>
+    <style>
+        .container {
+            max-width: 100%;
+        }
+
+        @media screen and (max-width: 840px) {
+            #main #content {
+                display: block;
+            }
+
+            #container #main #content,
+            #container #main .sidebar {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 640px) {
+            #footer .widget-footer {
+                display: block;
+                margin: 0 0 10px;
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            #header-logo {
+                margin: 0;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <img id="header-logo" src="your-logo.png" alt="Company Logo">
+        </header>
+        <main id="main">
+            <section id="content">
+                <h1>Welcome to Our Website</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </section>
+
+            <aside class="sidebar">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
+            </aside>
+        </main>
+        <footer id="footer">
+            <div class="widget-footer">
+                <p>Contact us: info@example.com</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
